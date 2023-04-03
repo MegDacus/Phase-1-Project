@@ -1,0 +1,210 @@
+{
+  "dogNames": [
+    "Bella",
+    "Max",
+    "Luna",
+    "Charlie",
+    "Lucy",
+    "Cooper",
+    "Daisy",
+    "Milo",
+    "Zoe",
+    "Rocky",
+    "Buddy",
+    "Tucker",
+    "Jack",
+    "Leo",
+    "Duke",
+    "Winston",
+    "Bear",
+    "Teddy",
+    "Loki",
+    "Archie",
+    "Joey",
+    "Oliver",
+    "Beau",
+    "Murphey",
+    "Jax",
+    "Gunther",
+    "Bentley",
+    "Nala",
+    "Lily",
+    "Kona",
+    "Piper",
+    "Mia",
+    "Bailey",
+    "Winnie",
+    "Riley",
+    "Coco",
+    "Molly",
+    "Ivy",
+    "Stella",
+    "Roxy"
+  ],
+  "catNames": [
+    {
+      "name": "Whiskey",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=0.668xw:1.00xh;0.119xw,0&resize=1200:*"
+    },
+    {
+      "name": "Oreo",
+      "image": "https://weu-az-web-ca-cdn.azureedge.net/mediacontainer/medialibraries/mypetdoctor/images/blog-images/grey-kitten.webp?ext=.webp"
+    },
+    {
+      "name": "Cappuccino",
+      "image": "https://www.rd.com/wp-content/uploads/2019/09/Cute-cat-lying-on-his-back-on-the-carpet.-Breed-British-mackerel-with-yellow-eyes-and-a-bushy-mustache.-Close-up-e1573490045672.jpg"
+    },
+    {
+      "name": "Wasabi",
+      "image": "https://www.thesprucepets.com/thmb/jSXF20oGPWZrsxL4bsn3lmfFm20=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1070816470-f33ecde4609c4144a838ae8a78d72182.jpg"
+    },
+    {
+      "name": "Mango",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/close-up-of-red-cat-curled-up-sleeping-in-bed-royalty-free-image-1669567526.jpg?crop=1xw:0.84375xh;center,top"
+    },
+    {
+      "name": "Mocha",
+      "image": "https://media.timeout.com/images/105634590/image.jpg"
+    },
+    {
+      "name": "Kiwi",
+      "image": "https://cdn.shopify.com/s/files/1/0435/0466/4732/files/1kitten_weight_chart_kg_480x480.jpg?v=1643551001"
+    },
+    {
+      "name": "Cookie",
+      "image": "https://www.rover.com/blog/wp-content/uploads/2019/06/cat-2934720_1920.jpg"
+    },
+    {
+      "name": "Tito",
+      "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-960998894.jpg"
+    },
+    {
+      "name": "Mochi",
+      "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-540542926-scaled-e1619016093503.jpg"
+    },
+    {
+      "name": "Clementine",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F06%2F26%2Forange-kitten-955480082-2000.jpg"
+    },
+    {
+      "name": "Ginger",
+      "image": "https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/img/article/close-up-of-orange-kitten-with-big-eyes-sw-790487.jpeg"
+    },
+    {
+      "name": "Maple",
+      "image": "https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg"
+    },
+    {
+      "name": "Pepper",
+      "image": "https://wagyourtail.photography/wp-content/uploads/cat-photography-denver-8.jpg"
+    },
+    {
+      "name": "Pickle",
+      "image": "https://wagyourtail.photography/wp-content/uploads/cat-photography-denver-2.jpg"
+    },
+    {
+      "name": "Waffle",
+      "image": "https://s.yimg.com/ny/api/res/1.2/DHu3N0IASBeedtu2NdCeXg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/daily_paws_articles_948/50e5b4fe0babf23fec63dee04c5482fa"
+    },
+    {
+      "name": "Chip",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4L1-no-oJ8gxYIl5vIEXERza8mjPO-FF6-WLQ0-obXa-L5GLXQiHA0lNlzY6lrVTPzxo&usqp=CAU"
+    },
+    {
+      "name": "Miso",
+      "image": "https://static.boredpanda.com/blog/wp-content/uploads/2020/04/professional-outdoor-cat-photoshoot-wally-roops-pet-photography-4-5e8455697a177__700.jpg"
+    },
+    {
+      "name": "Peanut",
+      "image": "https://media.istockphoto.com/id/1134450846/photo/young-striped-cat-exploring-the-woods.jpg?s=170667a&w=0&k=20&c=UNugF6QjuqmeUBYqt_FIZ-EmHqn7Z44-yLbl61Y1rMY="
+    },
+    {
+      "name": "Honey",
+      "image": "https://images.squarespace-cdn.com/content/v1/578f6a22d2b857959f688036/1524033028651-LHAKVMAEKQ09WUBATQPJ/Shy-cat-photo-session.jpg"
+    },
+    {
+      "name": "Jameson",
+      "image": "https://cats.com/wp-content/uploads/2022/05/cute-cat.jpg"
+    },
+    {
+      "name": "Butterscotch",
+      "image": "https://www.rover.com/blog/wp-content/uploads/2019/04/cute-big-eyes-960x540-1.jpg"
+    },
+    {
+      "name": "Cheerio",
+      "image": "https://u6a9q7u8.rocketcdn.me/wp-content/gallery/cat-photography/pittsburgh-cat-photographer-8.jpg"
+    },
+    {
+      "name": "Godiva",
+      "image": "https://wagyourtail.photography/wp-content/uploads/cat-photography-denver-15.jpg"
+    },
+    {
+      "name": "Kit Kat",
+      "image": "https://www.artfulpawsphotography.com/wp-content/uploads/2018/05/fcas-artful-paws-studio-cat-photographer-4393.jpg"
+    }
+  ],
+  "adoptedDogs": [
+    {
+      "name": "Nala",
+      "id": 1
+    },
+    {
+      "name": "Charlie",
+      "id": 2
+    },
+    {
+      "name": "Nala",
+      "id": 3
+    },
+    {
+      "name": "Oliver",
+      "id": 4
+    },
+    {
+      "name": "Jack",
+      "id": 5
+    },
+    {
+      "name": "Joey",
+      "id": 6
+    },
+    {
+      "name": "Rocky",
+      "id": 7
+    },
+    {
+      "name": "Bailey",
+      "id": 8
+    },
+    {
+      "name": "Loki",
+      "id": 9
+    },
+    {
+      "name": "Jack",
+      "id": 10
+    },
+    {
+      "name": "Winnie",
+      "id": 11
+    },
+    {
+      "name": "Teddy",
+      "id": 12
+    },
+    {
+      "name": "Bear",
+      "id": 13
+    }
+  ],
+  "adoptedCats": [
+    {
+      "name": "Mochi",
+      "id": 1
+    },
+    {
+      "name": "Clementine",
+      "id": 2
+    }
+  ]
+}

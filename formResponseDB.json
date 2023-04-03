@@ -1,0 +1,54 @@
+{
+  "submissions": [
+    {
+      "id": 1,
+      "email": "meganjustice0609@gmail.com",
+      "message": "hey"
+    },
+    {
+      "email": "meganjustice0609@gmail.com",
+      "message": "hello pls",
+      "id": 2
+    },
+    {
+      "email": "megandacus13@gmail.com",
+      "message": "i would like a dog",
+      "id": 3
+    },
+    {
+      "email": "meganjustice0609@gmail.com",
+      "message": "test",
+      "id": 4
+    },
+    {
+      "email": "justice.damian96@gmail.com",
+      "message": "testing testing",
+      "id": 5
+    },
+    {
+      "email": "megandacus13@gmail.com",
+      "message": "testing response",
+      "id": 6
+    },
+    {
+      "email": "fake@email.com",
+      "message": "testing reset",
+      "id": 7
+    },
+    {
+      "email": "fake@email.com",
+      "message": "form reset pls",
+      "id": 8
+    },
+    {
+      "email": "meganjustice0609@gmail.com",
+      "message": "hello",
+      "id": 9
+    },
+    {
+      "email": "meganjustice0609@gmail.com",
+      "message": "hey",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+.flex-wrapper {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+.heading {
+   text-align: center;
+}
+
+h1 {
+   margin-top: 40px;
+}
+
+.pHeading {
+   margin-bottom: 40px;
+}
+
+.card-img-top {
+   height: 200px;
+}
+
+#footer {
+   text-align: center;
+   background-color: lightgrey;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+#enquiryForm {
+   margin-top: 30px;
+   width: 50%;
+}
+
+.adoptionDiv {
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+#loading {
+   width: 2rem;
+   height: 2rem;
+   border: 5px solid #f3f3f3;
+   border-top: 6px solid blue;
+   border-radius: 100%;
+   margin: auto;
+   visibility: hidden;
+   animation: spin 1s infinite linear;
+}
+
+#loading.display {
+   visibility: visible;
+}
+
+@keyframes spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+#submitResponse {
+   color: lightgrey;
+}
+
+.adopted {
+   filter: grayscale(100%);
+   pointer-events: none;
+}
