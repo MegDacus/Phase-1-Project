@@ -1,120 +1,129 @@
 <!DOCTYPE html>
 <html data-bs-theme=hidden"dark" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Animal Adoption</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/index.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Animal Adoption</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/index.js"></script>
+    </head>
 
-<body>
-<div class="flex-wrapper">
-    <!--Navigation-->
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a id='homePage' class="nav-link active" aria-current="page" href="">Home</a>
-        </li>
-        <li class="nav-item">
-            <a id='dogPage' class="nav-link" href="">Available Dogs</a>
-        </li>
-        <li class="nav-item">
-            <a id='catPage' class="nav-link" href="">Available Cats</a>
-        </li>
-        <li class="nav-item">
-            <a id='enquirePage' class="nav-link" href="">Enquire Here</a>
-        </li>
-    </ul>
-<div class="adoptionDiv" id="homeDiv">
-    <!--Heading One-->
-        <div id="heading-banner">
-            <h1 class="heading">Animal Adoption</h1>
-            <h4 class="heading">Interested in Adopting?</h4>
-            <p class="pHeading heading">Choose below for a list of animals currently up for adoption!</p>
-        </div>
+    <body>
+        <div class="flex-wrapper">
+            
+        <!--Navigation-->
 
-    <!--Animal Cards-->
-    <div id="animalCards">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-            <div id="dogCard" class="card h-100">
-                <img id="dogImg" src="./images/adopt-dog.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Available Dogs & Puppies</h5>
-                <p class="card-text">Our beautiful canines have all been de-sexed, vaccinated, microchipped, and wormed. A thorough health check has also been conducted and paperwork can be requested if desired.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-            <div id='catCard' class="card h-100">
-                <img id="catImg" src="./images/adopt-cat.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Available Cats & Kittens</h5>
-                <p class="card-text">Our precious felines have all been health-checked, de-sexed, microchipped, and vaccinated. They have also been behaviourally assessed to be sure they are ready for their new homes! </p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-
-<!--DOG PAGE-->
-
-<div hidden class="adoptionDiv" id="dogDiv">
-    
-    <h1 class="heading">Animal Adoption</h1>
-    <h4 class="heading">Available Dogs & Puppies</h4>
-    <p class="pHeading heading">Click the "Adopt Me!" button to submit your inquiry. We will be in contact within 5 business days.</p>
-    
-    
-    <!-- <div id="loading"></div> -->
-    <div id="adoptDogDiv" class="row row-cols-1 row-cols-md-3 g-4"></div>
-</div>
-
-<!--CAT PAGE-->
-
-<div hidden class ='adoptionDiv' id="catDiv">
-
-        <h1 class="heading">Animal Adoption</h1>
-        <h4 class="heading">Available Cats & Kittens</h4>
-        <p class="pHeading heading">Click the "Adopt Me!" button to submit your inquiry. We will be in contact within 5 business days.</p>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a id='homePage' class="nav-link active" aria-current="page" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a id='dogPage' class="nav-link" href="">Available Dogs</a>
+                </li>
+                <li class="nav-item">
+                    <a id='catPage' class="nav-link" href="">Available Cats</a>
+                </li>
+                <li class="nav-item">
+                    <a id='enquirePage' class="nav-link" href="">Enquire Here</a>
+                </li>
+            </ul>
         
+        <!--HOME PAGE-->    
+
+            <div class="adoptionDiv" id="homeDiv">
+                
+                    <div id="heading-banner">
+                        <h1 class="heading">Animal Adoption</h1>
+                        <h4 class="heading">Interested in Adopting?</h4>
+                        <p class="pHeading heading">Choose below for a list of animals currently up for adoption!</p>
+                    </div>
+
+                <!--Animal Cards-->
+                <div id="animalCards">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                        <div id="dogCard" class="card h-100">
+                            <img id="dogImg" src="./images/adopt-dog.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Available Dogs & Puppies</h5>
+                            <p class="card-text">Our beautiful canines have all been de-sexed, vaccinated, microchipped, and wormed. A thorough health check has also been conducted and paperwork can be requested if desired.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div id='catCard' class="card h-100">
+                            <img id="catImg" src="./images/adopt-cat.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Available Cats & Kittens</h5>
+                            <p class="card-text">Our precious felines have all been health-checked, de-sexed, microchipped, and vaccinated. They have also been behaviourally assessed to be sure they are ready for their new homes! </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--DOG PAGE-->
+
+            <div hidden class="adoptionDiv" id="dogDiv">
+                
+                <h1 class="heading">Animal Adoption</h1>
+                <h4 class="heading">Available Dogs & Puppies</h4>
+                <p class="pHeading heading">Click the "Adopt Me!" button to submit your inquiry. We will be in contact within 5 business days.</p>
+                
+                
+                <!-- <div id="loading"></div> -->
+                <div id="adoptDogDiv" class="row row-cols-1 row-cols-md-3 g-4"></div>
+            </div>
+
+        <!--CAT PAGE-->
+
+            <div hidden class ='adoptionDiv' id="catDiv">
+
+                    <h1 class="heading">Animal Adoption</h1>
+                    <h4 class="heading">Available Cats & Kittens</h4>
+                    <p class="pHeading heading">Click the "Adopt Me!" button to submit your inquiry. We will be in contact within 5 business days.</p>
+                    
+                    
+                    <div id="adoptCatDiv" class="row row-cols-1 row-cols-md-3 g-4"></div>
+            </div>
+
+        <!--ENQUIRE PAGE-->
+            
+            <div hidden id="enquireDiv">
+                <h1 class="heading">Ready to Adopt?</h1>
+                <h3 class="heading">Send us an email!</h3>
+                <p class="heading pHeading">We will get a response to you within 5 business days.</p>
+                <div class='d-flex justify-content-center adoptionDiv' id="inquiryDiv">
+                    <form id="enquiryForm">
+                            <div class="form-floating mb-3">
+                                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                            </div></br>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Send Enquiry</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+
+        <!--Footer-->
         
-        <div id="adoptCatDiv" class="row row-cols-1 row-cols-md-3 g-4"></div>
-</div>
-
-<!--ENQUIRE PAGE-->
-<div hidden id="enquireDiv">
-    <h1 class="heading">Ready to Adopt?</h1>
-    <h3 class="heading">Send us an email!</h3>
-    <p class="heading pHeading">We will get a response to you within 5 business days.</p>
-    <div class='d-flex justify-content-center adoptionDiv' id="inquiryDiv">
-        <form id="enquiryForm">
-                <div class="form-floating mb-3">
-                    <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                    <label for="floatingInput">Email address</label>
-                </div>
-                <div class="form-floating">
-                    <textarea class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
-                    <label for="floatingTextarea2">Message</label>
-                </div></br>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Send Enquiry</button>
-                </div>
-        </form>
-    </div>
-</div>
-
-
-<!--Footer-->
-<div id="footer">
-    <h5>Contact Us</h5>
-    <p>Email: animaladoption@gmail.com<br>
-    Phone: 000 000 0000</br>
-    Instagram Facebook Twitter
-</p>
-</div>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-</body>
+            <div id="footer">
+                <h5>Contact Us</h5>
+                <p>Email: animaladoption@gmail.com<br>
+                Phone: 000 000 0000</br>
+                <a href="http://www.Instagram.com"><img src="images/icons8-instagram-30.png"></a> 
+                <a href="http://www.Facebook.com"><img src="images/icons8-facebook-30.png"></a> 
+                <a href="http://www.Twitter.com"><img src="images/icons8-twitter-30.png"></a>
+            </p>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
 </html>

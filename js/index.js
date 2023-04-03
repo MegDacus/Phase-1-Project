@@ -62,18 +62,11 @@ let initialize = async () => {
 
     let dogImg = document.querySelector('#dogImg')
     let catImg = document.querySelector('#catImg')
-    dogImg.addEventListener('mouseover', () => {
-        dogImg.src = './images/adopt-puppies.webp'
-    })
-    dogImg.addEventListener('mouseout', () => {
-        dogImg.src = './images/adopt-dog.jpeg'
-    })
-    catImg.addEventListener('mouseover', () => {
-        catImg.src = './images/adopt-cat2.jpeg'
-    })
-    catImg.addEventListener('mouseout', () => {
-        catImg.src = './images/adopt-cat.webp'
-    })
+
+    dogImg.addEventListener('mouseover', () => dogImg.src = './images/adopt-puppies.webp')
+    dogImg.addEventListener('mouseout', () => dogImg.src = './images/adopt-dog.jpeg')
+    catImg.addEventListener('mouseover', () => catImg.src = './images/adopt-cat2.jpeg')
+    catImg.addEventListener('mouseout', () => catImg.src = './images/adopt-cat.webp')
 
     let dogCard = document.querySelector('#dogCard')
     let catCard = document.querySelector('#catCard')
@@ -138,10 +131,12 @@ let initialize = async () => {
             </div>
             </div>`
             hideLoading();
-
+                
+            //ANIMAL CARD BUTTON FUNCTIONALITY//
+        
             let enquireBtn = document.getElementById(`${i.toString() + 'enquire' + div}`)
             let adoptMeBtn = document.getElementById(`${i.toString() + 'adopt' + div}`);
-            
+                    
             enquireBtn.addEventListener('click', () => {  
                 loadNewPage(enquirePage, enquireTag)
             })
@@ -150,6 +145,7 @@ let initialize = async () => {
                 let animalCard = e.target.parentNode.parentNode
                 let adoptedMessage = document.createElement('p')
                 adoptedMessage.innerText = `${name} has been adopted.`
+                adoptedMessage.style.textAlign = 'center';
                 animalCard.appendChild(adoptedMessage);
                 animalCard.classList.add('adopted');
                 
@@ -174,7 +170,7 @@ let initialize = async () => {
                 }
                 if (adoptMeBtn.id.includes('adoptCatDiv')) {
                     alert('Congratulations on your new cat!')
-
+        
                     fetch('http://localhost:3001/adoptedCats', {
                         method: 'POST',
                         headers: {
@@ -191,43 +187,46 @@ let initialize = async () => {
                 }
             })
         }}
-        
-        
-        function changeDogImg() {
-            return fetch('https://dog.ceo/api/breeds/image/random')
-            .then (resp => resp.json())
-            .then (dogImg => {
-                return dogImg.message;
-            }
-            )
-        }
-        
-        function retrieveDogNames() {
-            return fetch(`http://localhost:3001/dogNames`)
-            .then (resp => resp.json())
-            .then (names => {
-                return names
-            })
-        }
 
         
-        function retrieveCats() {
-            return fetch('http://localhost:3001/catNames')
-            .then (resp => resp.json())
-            .then (cats => {
-                return cats;
-            })
+    //API & DB RETRIEVAL FUNCTIONS//
+        
+    function changeDogImg() {
+        return fetch('https://dog.ceo/api/breeds/image/random')
+        .then (resp => resp.json())
+        .then (dogImg => {
+            return dogImg.message;
         }
+        )
+    }
+    
+    function retrieveDogNames() {
+        return fetch(`http://localhost:3001/dogNames`)
+        .then (resp => resp.json())
+        .then (names => {
+            return names
+        })
+    }
 
-        function changeCatImg() {
-            let random = Math.floor(Math.random() * catObjs.length)
-            while (previousCatImages.includes(random)) {
-                random = Math.floor(Math.random() * catObjs.length)
-            }
-            previousCatImages.push(random)
-            return catObjs[random].image;
+    
+    function retrieveCats() {
+        return fetch('http://localhost:3001/catNames')
+        .then (resp => resp.json())
+        .then (cats => {
+            return cats;
+        })
+    }
+
+    function changeCatImg() {
+        let random = Math.floor(Math.random() * catObjs.length)
+        while (previousCatImages.includes(random)) {
+            random = Math.floor(Math.random() * catObjs.length)
         }
+        previousCatImages.push(random)
+        return catObjs[random].image;
+    }
      
+    
     //LOADING SPIN FOR DOG PAGE//
 
     function displayLoading() {
@@ -268,4 +267,5 @@ let initialize = async () => {
     } )
  
 }
+
 document.addEventListener('DOMContentLoaded', initialize)
