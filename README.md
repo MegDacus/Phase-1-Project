@@ -2,6 +2,10 @@
 
 Welcome to my Animal Adoption Page! 
 
+To start:
+The formSubmissionDB.json should be run on port 3000.
+The animalDB.json should be run on port 3001.
+
 You can access animals available for adoption by selecting the animal cards on the home page, or you can navigate using the links in the navigation bar at the top.
 
 Upon opening the Available Dogs or Available Cats page, you can choose to adopt or enquire about each animal. 
