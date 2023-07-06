@@ -90,13 +90,14 @@ let initialize = async () => {
         }
     })
     
+    //DOG API & CAT DB//
+    
     let loadingDiv = document.createElement('div')
 
     function getRandomMultipleOfFifty(min, max) {
         return( min + Math.floor( Math.random() * ( max-min+1 ) ) );
     }
     
-    //DOG API & CAT DB//
     let createAnimalCard = async (div, imgFunc, names) => {
         let previousAnimalNames = [];
 
@@ -110,6 +111,7 @@ let initialize = async () => {
             displayLoading()
 
             let fee = getRandomMultipleOfFifty(2, 6) * 50;
+            let img = await imgFunc()
             
             let randomNumber = Math.floor(Math.random() * names.length);
             while (previousAnimalNames.includes(randomNumber)) {
@@ -117,7 +119,7 @@ let initialize = async () => {
             }
             previousAnimalNames.push(randomNumber);
             let name = names[randomNumber];
-            let img = await imgFunc()
+            
             adoptAnimalImg.innerHTML = 
             `<div class="col">
             <div class="card">

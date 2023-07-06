@@ -187,34 +187,6 @@
     {
       "name": "Winnie",
       "id": 11
-    },
-    {
-      "name": "Teddy",
-      "id": 12
-    },
-    {
-      "name": "Bear",
-      "id": 13
-    },
-    {
-      "name": "Stella",
-      "id": 14
-    },
-    {
-      "name": "Stella",
-      "id": 15
-    },
-    {
-      "name": "Duke",
-      "id": 16
-    },
-    {
-      "name": "Winnie",
-      "id": 17
-    },
-    {
-      "name": "Charlie",
-      "id": 18
     }
   ],
   "adoptedCats": [
@@ -245,6 +217,14 @@
     {
       "name": "Mocha",
       "id": 7
+    },
+    {
+      "name": "Tito",
+      "id": 8
+    },
+    {
+      "name": "Mochi",
+      "id": 9
     }
   ]
 }
